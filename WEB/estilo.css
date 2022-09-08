@@ -16,7 +16,7 @@ a:link, a:visited{
     color: #6441a5
 }
 
-h1{
+#titulo{
     color: blue;
     text-align: center;
 }
@@ -24,4 +24,12 @@ h1{
 footer{
     color: white;
     background-color: brown;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#capa{
+    width: 100px;
 }
