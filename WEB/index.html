@@ -8,55 +8,69 @@
     <title>Julio</title>
 </head>
 <body>
-    <h1 id="titulo">Sobre mim</h1>
 
-    <p>Meu nome é Julio, eu sou academico do curso de Engenharia de Software do segundo semestre da Universidade Católica de Santa Catarina</p>
-    <p>No meu tempo vago eu gosto de jogar alguns jogos no computador e eventualmente fazer algumas lives na <a id=twitch href="https://www.twitch.tv/" target="_blank">Twitch.tv</a> além de também tocar violão, guitarra e ukulele, você tmabém pode conferir meu canal clicando na imagem a seguir</p>
-    <a id="twitch" href="https://www.twitch.tv/bjhin" target="_blank"><image id="twimage" src="twitch.jpg"></a>
+    <div class="topnav">
+        <a class="active" href="#titulo">Início</a>
+        <a href="news" target="_blank">Notícias</a>
+        <a href="contact" target="_blank">Contato</a>
+        <a href="3about" target="_blank">Sobre mim</a>
+    </div>
+
+    <h1 id="about">Sobre mim</h1>
+
+    <div class="sobre">
+        <p>Meu nome é Julio, eu sou academico do curso de Engenharia de Software do segundo semestre da Universidade Católica de Santa Catarina</p>
+        <p>No meu tempo vago eu gosto de jogar alguns jogos no computador e eventualmente fazer algumas lives na <a id=twitch href="https://www.twitch.tv/" target="_blank">Twitch.tv</a> além de também tocar violão, guitarra e ukulele, você tmabém pode conferir meu canal clicando na imagem a seguir</p>
+        <a id="twitch" href="https://www.twitch.tv/bjhin" target="_blank"><image id="twimage" src="twitch.jpg"></a>
+    </div>
+
+    
+
+    
     
     <table  style="border-radius:10px" border="1" cellspacing="8">
-        <caption>Lista de Jogos</caption>
+        <caption id="tabela"><b>Lista de Jogos</b></caption>
         <tr>
             <td>
                 <ul type="none">
-                    <li>Game</li>
+                    <li class="table"><b>Game</b></li>
                 </ul>
             </td>
             <td>
                 <ul type="none">
-                    <li>Genero</li>
+                    <li class="table"><b>Genero</b></li>
                 </ul>
             </td>
             <td>
                 <ul type="none">
-                    <li>Ano de Lançamento</li>
+                    <li class="table"><b>Ano de Lançamento</b></li>
                 </ul>
             </td>
             <td>
                 <ul type="none">
-                    <li>Sinopse</li>
+                    <li class="table"><b>Sinopse</b></li>
                 </ul>
             </td>
             <td>
                 <ul type="none">
-                    <li>Imagem</li>
+                    <li class="table"><b>Imagem</b></li>
                 </ul>
             </td>
             
         </tr>
         <tr>
-            <td>Need For Speed: Underground 2</td>
-            <td>Corrida</td>
-            <td>Novembro 2004</td>
+            <td class="table">Need For Speed: Underground 2</td>
+            <td class="table">Corrida</td>
+            <td class="table">Novembro 2004</td>
             <td>Need For Speed: Underground 2 é um jogo eletrônico<br>
                 de corrida multiplataforma e a oitava edição da série<br>
                 Need for Speed, sendo a sequência direta de Need for Speed: Underground</td>
             <td><img src="Nfsu2_capa_pt.jpg" id="capa"></td>
         </tr>
         <tr>
-            <td>The Elder Scroll V: Skyrim</td>
-            <td>RPG Single Player</td>
-            <td>Novembro 2011</td>
+            <td class="table">The Elder Scroll V: Skyrim</td>
+            <td class="table">RPG Single Player</td>
+            <td class="table">Novembro 2011</td>
             <td>The Elder Scrolls V: Skyrim é um jogo eletrônico<br>
                 de RPG de ação desenvolvido pela Bethesda Game Studios<br>
                 e publicado pela Bethesda Softworks.<br>
@@ -65,9 +79,9 @@
             <td><img src="the-elder-scrolls-v-skyrim_81xc.jpg" id="capa"></td>
         </tr>
         <tr>
-            <td>Rocket League</td>
-            <td>Futebol de carros</td>
-            <td>Julho 2015</td>
+            <td class="table">Rocket League</td>
+            <td class="table">Futebol de carros</td>
+            <td class="table">Julho 2015</td>
             <td>Rocket League é um jogo eletrônico<br>
                 de futebol em veículos desenvolvido e publicado<br>
                 pela Psyonix. Foi lançado pela primeira vez para<br>
